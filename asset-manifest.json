@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/VET-CLINIC/static/css/main.cb9d85b6.css",
+    "main.js": "/VET-CLINIC/static/js/main.c3786fa1.js",
+    "static/js/787.2396f689.chunk.js": "/VET-CLINIC/static/js/787.2396f689.chunk.js",
+    "static/media/img-hero.png": "/VET-CLINIC/static/media/img-hero.7fe017329cb68055dcfb.png",
+    "static/media/servicios-2.jpg": "/VET-CLINIC/static/media/servicios-2.517e04fdd98615abf21a.jpg",
+    "static/media/servicios-1.jpg": "/VET-CLINIC/static/media/servicios-1.b662563c4827ef3b254e.jpg",
+    "static/media/servicios-6.jpg": "/VET-CLINIC/static/media/servicios-6.f39b72f08557ffab0b77.jpg",
+    "static/media/conejo-section-adoption.png": "/VET-CLINIC/static/media/conejo-section-adoption.62de2ebc2b9c24df91a1.png",
+    "static/media/cat.jpeg": "/VET-CLINIC/static/media/cat.0aeb161ef9fa21a817d9.jpeg",
+    "static/media/huron-section-form.png": "/VET-CLINIC/static/media/huron-section-form.c9187ee7871667ca4f1a.png",
+    "static/media/servicios-3.jpg": "/VET-CLINIC/static/media/servicios-3.f947fb8ff8935b12321d.jpg",
+    "static/media/servicios-4.jpg": "/VET-CLINIC/static/media/servicios-4.298b609e99062215b57c.jpg",
+    "static/media/profile2.png": "/VET-CLINIC/static/media/profile2.f7f4322521463143a3e5.png",
+    "static/media/rabbit.jpeg": "/VET-CLINIC/static/media/rabbit.3a6dde6877f6a2eb97a8.jpeg",
+    "static/media/servicios-5.jpg": "/VET-CLINIC/static/media/servicios-5.669054866c718e666d6f.jpg",
+    "static/media/profile3.png": "/VET-CLINIC/static/media/profile3.bbab2d5be6dd96a5e187.png",
+    "static/media/dog.jpeg": "/VET-CLINIC/static/media/dog.0bcee52c07c905198212.jpeg",
+    "static/media/profile1.png": "/VET-CLINIC/static/media/profile1.298d6a664d79d7a78096.png",
+    "static/media/logo-vet-clinic.svg": "/VET-CLINIC/static/media/logo-vet-clinic.45dfbe273ed65e1457cf0d37447f80cd.svg",
+    "static/media/hero-bg.svg": "/VET-CLINIC/static/media/hero-bg.546bea8baa0936fa6407.svg",
+    "index.html": "/VET-CLINIC/index.html",
+    "static/media/footer-bg.svg": "/VET-CLINIC/static/media/footer-bg.791f9a3c834d300e50e0.svg",
+    "main.cb9d85b6.css.map": "/VET-CLINIC/static/css/main.cb9d85b6.css.map",
+    "main.c3786fa1.js.map": "/VET-CLINIC/static/js/main.c3786fa1.js.map",
+    "787.2396f689.chunk.js.map": "/VET-CLINIC/static/js/787.2396f689.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb9d85b6.css",
+    "static/js/main.c3786fa1.js"
+  ]
+}
