@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VET-CLINIC/static/css/main.cb9d85b6.css",
-    "main.js": "/VET-CLINIC/static/js/main.c3786fa1.js",
+    "main.js": "/VET-CLINIC/static/js/main.f9e3a903.js",
     "static/js/787.2396f689.chunk.js": "/VET-CLINIC/static/js/787.2396f689.chunk.js",
     "static/media/img-hero.png": "/VET-CLINIC/static/media/img-hero.7fe017329cb68055dcfb.png",
     "static/media/servicios-2.jpg": "/VET-CLINIC/static/media/servicios-2.517e04fdd98615abf21a.jpg",
@@ -23,11 +23,11 @@
     "index.html": "/VET-CLINIC/index.html",
     "static/media/footer-bg.svg": "/VET-CLINIC/static/media/footer-bg.791f9a3c834d300e50e0.svg",
     "main.cb9d85b6.css.map": "/VET-CLINIC/static/css/main.cb9d85b6.css.map",
-    "main.c3786fa1.js.map": "/VET-CLINIC/static/js/main.c3786fa1.js.map",
+    "main.f9e3a903.js.map": "/VET-CLINIC/static/js/main.f9e3a903.js.map",
     "787.2396f689.chunk.js.map": "/VET-CLINIC/static/js/787.2396f689.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb9d85b6.css",
-    "static/js/main.c3786fa1.js"
+    "static/js/main.f9e3a903.js"
   ]
 }
