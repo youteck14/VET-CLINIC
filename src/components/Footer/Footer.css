@@ -1,0 +1,138 @@
+
+.footer-principal{
+    background-image: url(../../assets/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 3cm;
+    background-size: cover;   
+}
+
+.footer-limit{
+    max-width: 1024px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-family: 'Nunito', sans-serif; 
+}
+
+
+
+.contactese-con{
+    margin: 0 1rem 1rem 0.5rem;    
+}
+.menu-contactese{
+    color: #434343;
+    margin-top: 1rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.list-footer li{
+    list-style: none;
+    padding: 1rem;
+}
+.mapa-veterinaria{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #f1f1f1;
+}
+.panda{
+    background-image: url(../../assets/logo-vet-clinic.svg);
+    width: 7.5rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    margin-top: 2rem; 
+    
+}
+.ancor-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.solicitud{
+    text-align: center;
+} 
+
+.ancor-footer a{    
+    text-decoration: none;
+    color: #fff;
+}
+.ancor-iconos a,i{
+    text-decoration: none;
+    margin: 0 1rem 1rem 0.2rem;   
+    color: #fff;
+    transition: 0.5s;
+}
+
+.ancor-iconos i:hover{
+    color: #aae1fc;  
+}
+
+.ancor-iconos{
+    margin: 2rem 0;    
+    font-size: 1rem;
+}
+.copyright{
+    margin: 3rem 0 0;
+    padding: 0 1rem 2rem;
+}
+.copyright-info{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.list-footer{
+    text-align: center;
+}
+
+.bi-geo-alt-fill,
+.bi-clock-fill,
+.bi-phone-fill,
+.bi-envelope-fill {
+    color: #434343;
+    margin: 0;
+}
+
+@media (min-width: 854px) {
+
+    .list-footer{
+        display: flex;
+        justify-content: space-around;                
+    }   
+    .menu-contactese{
+        font-size: 2.5rem;
+    }
+    .mapa-veterinaria{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;        
+    }
+    .enlaces-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #fff;
+        gap: 1.5rem;
+    }
+    .enlaces-servicios{
+        display: flex;        
+        align-items: center;
+    }
+    .enlaces-servicios a{
+        flex-direction: row;
+    }
+    
+    .contenedor{
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+    .ancor-footer{       
+        flex-direction: row;
+    }    
+
+}

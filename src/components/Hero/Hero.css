@@ -1,0 +1,156 @@
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url('../../Img/hero-bg.svg');
+    align-content: space-around;
+    overflow-x: hidden;  
+ 
+}
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 1rem 0;      
+ 
+}
+
+.hero_info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;    
+  }
+
+.hero_info-title {
+    font-size: 2.6rem;
+    margin: 0;
+    color: floralwhite;
+    font-weight: 800;
+  }
+
+.hero_info-paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    
+  }
+
+.hero_info-link-container {
+margin-top: 1rem;
+display: flex;
+flex-direction: column;
+margin: 1rem auto;
+}
+
+.hero_info-link,
+.hero_info-link--colorbg {
+  text-decoration: none;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1rem 1rem;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #27b1f4;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  width: 15rem;
+  font-weight: 800;  
+}
+
+.hero_info-link--colorbg:hover{
+  border: 1px solid #ceeaf8;
+  background-color: #ceeaf8;
+  color: #27b1f4;
+}
+
+.hero_info-link{
+  background-color: transparent;
+  color: #fff;
+
+}
+
+.hero_info-link:hover {
+  background-color: #fff;
+  color: #27b1f4;
+}
+
+.hero_img-container{
+    position: relative;
+    width: 280px;
+    height: 280px;
+
+}
+
+.hero_img-mascota {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 280px;
+
+}
+
+@media (min-width: 854px) {
+
+  .hero_container {
+    flex-direction: row;
+    gap: 2rem;  
+}
+
+.hero_info-container {
+text-align: left;
+
+}
+
+.hero_info-title {
+  font-size: 3rem;
+
+}
+
+.hero_info-link-container {
+  flex-direction: row;
+  margin: 1rem 0;
+  }
+  
+  .hero_info-link,
+  .hero_info-link--colorbg {
+    text-align: center;  
+    width: 13rem;
+  }
+
+.hero_info-link--colorbg{
+  margin-left: 0;
+}
+
+.hero_img-container{
+  width: 490px;
+  height: 490px;
+
+  }
+
+
+.hero_img-mascota {
+  top: 1;
+  width: 490px;
+  height: 490px;
+}
+
+
+}

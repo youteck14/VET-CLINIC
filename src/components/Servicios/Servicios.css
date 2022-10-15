@@ -1,0 +1,126 @@
+#app { height: 100% }
+
+.servicios__section {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0 ;
+  scroll-margin-top: 100px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider__container-tittle{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.slider__title{
+  color: #434343;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.slider__body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.subtitle{
+  color: #434343;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 0 3rem;
+}
+
+.slider__review{
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0 3rem;
+}
+
+
+.slider__price{
+  color: #434343;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+@media (min-width: 854px){
+
+  .slider__title{
+    font-size: 2.5rem;
+  }
+
+  .slider__body{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  .slider__info{
+    max-width: 563px;
+    text-align: left;
+  }
+
+  .subtitle{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .slider__review{
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .slider__price-link{
+    margin: 0;
+  }
+
+}
